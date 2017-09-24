@@ -33,9 +33,9 @@
                 </li>
                 <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">CURSOS TÉCNICOS</a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">ENFERMAGEM</a></li>
-                        <li><a href="#">RADIOLOGIA</a></li>
-                        <li><a href="#">IMOBILIZAÇÃO ORTOPÉDICA</a></li>
+                        <li><a href="enfermagem.php">ENFERMAGEM</a></li>
+                        <li><a href="radiologia.php">RADIOLOGIA</a></li>
+                        <li><a href="imobilizacao.php">IMOBILIZAÇÃO ORTOPÉDICA</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">ESPECIALIZAÇÃO TÉCNICA </a>

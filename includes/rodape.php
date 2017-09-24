@@ -11,12 +11,12 @@
             <div class="col-md-3 col-sm-6 pre-footer-col">
                 <h2>Mapa do Site</h2>
                 <ul class="list-unstyled">
-                    <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Página Inicial</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Institucional</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Cursos Técnicos</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Especialização</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="index.php">Página Inicial</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="#">Institucional</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="#">Cursos Técnicos</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="#">Especialização</a></li>
                     <li><i class="fa fa-angle-right"></i> <a href="#">Capacitação</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href="#">Contato</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="contato.php">Contato</a></li>
                     <li><i class="fa fa-angle-right"></i> <a href="#">Área do Aluno</a></li>
                 </ul>
             </div>

@@ -1,3 +1,8 @@
+<?php
+    $msg=;
+    @$msg = $_REQUEST['msg'];
+?>
+
 <!DOCTYPE html>
 
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
@@ -59,7 +64,7 @@
 
 <body ng-controller="customersCtrl" class="ecommerce">
 
-    <div ng-include="'includes/menu.html'"></div>
+    <?php include 'includes/menu.php'?>
 
     <div class="page-slider margin-bottom-35">
         <div id="carousel-example-generic" class="carousel slide carousel-slider">
@@ -206,33 +211,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 shop-index-carousel">
-                    <div class="content-slider">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img src="assets/pages/img/index-sliders/slide2.jpg" class="img-responsive" alt="Berry Lace Dress">
-                                </div>
-                                <div class="item">
-                                    <img src="assets/pages/img/index-sliders/slide1.jpg" class="img-responsive" alt="Berry Lace Dress">
-                                </div>
-                                <div class="item">
-                                    <img src="assets/pages/img/index-sliders/slide1.jpg" class="img-responsive" alt="Berry Lace Dress">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
     </div>
 
-    <div ng-include="'includes/rodape.html'"></div>
+    <?php include 'includes/rodape.php'?>
 
     <!--[if lt IE 9]>
     <script src="assets/plugins/respond.min.js"></script>  
